@@ -8,12 +8,8 @@
 /* eslint-disable @typescript-eslint/ban-types */
 
 type ExtensionPreferences = {
-  /** Adobe Developer Client ID - Client ID from Adobe Developer Console (OAuth Single Page App) */
-  "clientId"?: string,
-  /** Browse Default Folder ID - Browse opens directly at this folder. Copy a Folder / Project / Workspace ID from the Browse command (⌘K → Copy ID) and paste it here. */
-  "defaultFolderId"?: string,
-  /** Account - Disconnects from Frame.io. Uncheck after signing out. */
-  "signOut": boolean
+  /** Browse Default Folder ID - Browse opens directly at this location. Copy a Folder / Project / Workspace ID from the Browse command (⌘K → Copy ID) and paste it here. */
+  "defaultFolderId"?: string
 }
 
 /** Preferences accessible in all the extension's commands */
