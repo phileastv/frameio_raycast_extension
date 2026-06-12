@@ -61,7 +61,6 @@ async function authorizeInternal(): Promise<void> {
     },
   });
 
-
   try {
     const { authorizationCode } = await client.authorize(authRequest);
     const tokens = await exchangeCodeForTokens(authRequest, authorizationCode, clientId);

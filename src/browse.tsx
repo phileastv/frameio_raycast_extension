@@ -136,7 +136,8 @@ function BrowseCommandMain({ onDisconnect }: { onDisconnect: () => void }): JSX.
       showToast({
         style: Toast.Style.Failure,
         title: "Default Location Not Found",
-        message: "The ID in Extension Preferences → Browse Default Folder ID is not a valid workspace, project, or folder.",
+        message:
+          "The ID in Extension Preferences → Browse Default Folder ID is not a valid workspace, project, or folder.",
       });
     }
 
